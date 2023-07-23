@@ -1,0 +1,35 @@
+body { width: 80%; margin:auto;}
+<style type="text/css">
+	a {text-decoration: none; color:black; margin-top: 42px; float:right; margin-right: 400px;background-color: grey; 
+	padding: 5PX;
+	font-size: 13px;}
+</style>
+
+.body { width: 75%; }
+
+.logo {
+		background-image: url(logo_head.jpg);
+		background-repeat: no-repeat;
+		padding-top: 50px;
+		height: 60px;
+		width: 20%;
+		float:left;
+		}
+
+.background {border-bottom: 2px solid black;}
+
+.first_info {float:left;}
+.second_info{float:right;}
+.main-area {clear:both;}
+
+.print {background-color: grey; 
+	padding: 5PX;
+	font-size: 13px;
+	margin-top: 40px;
+	clear:both; 
+	float:left;
+	margin-bottom: 10px;}
+
+.signature {border:1px solid black;
+			 height:200px;
+			width:670px; padding-left: 20PX;}

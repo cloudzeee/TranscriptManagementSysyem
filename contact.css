@@ -1,0 +1,176 @@
+body{
+	margin: 0px;
+	padding:0px;
+	background-image: url(projectpic.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family:calibri;
+	}
+
+.name_of_site {
+	height: 40px;
+	background-color: #ff5722;
+	line-height: 40px;
+	padding-left: 50px;
+}
+
+#lion {
+	color: white;
+	font-size:20px;
+	font-family: bookman;
+	font-weight: bold;
+}
+
+#address {
+	float:right;
+	margin-right: 100px;}
+
+.logo{background-image: url(lion.png);
+	float:left;
+	width:20%;
+	height: 60px;
+	padding: 0;
+	background-repeat: no-repeat;
+	margin-left:200px;
+	margin-top: 50px;
+	}
+
+ul li a {float:right;
+	text-decoration:none;
+	color:white;
+	padding: 20px;
+	height: 20px;
+		}
+
+ul li a:hover{
+	color:#ff5722;
+	font-weight: bold;
+	border: 2px solid #ff5722;
+	padding: 10px;
+	border-radius: 2px;}
+
+ul li {float:right;
+	list-style-type: none;
+	}
+
+ul{	margin-right:100px;}
+
+.writeup {
+	clear: both;
+	margin-top:9%;
+	width: 60%;
+	font-size:22px; }
+
+.box{
+	padding: 20px;
+	width:40%;
+	border:none;
+	border-bottom: 3px solid purple;
+	background-color: transparent;
+}
+.button {
+	width:30%;
+	height: 40px;
+	border: none;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	background-color: #ff5722;
+	border-radius: 2px;
+	margin-bottom: 10%;}
+
+.button:hover{background-color: transparent; 
+	border:2px solid #ff5722;
+	color: #ff5722;}
+
+@media screen and (max-width:950px){
+
+.logo{width:20%;margin-left:15%;}
+
+body {height: 800px;}
+
+ul li a {padding: 10px; font-size:12px; }
+
+ul li a:hover{padding: 10px;}
+
+ul{	margin-right:50px;}
+
+.writeup {font-size:15px; }
+
+.button {
+	width:25%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 10px;}
+
+}
+
+@media screen and (max-width:500px){
+
+.logo{background-image: url(lion.png);
+	float:none;
+	width:25%;
+	height: 53px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	margin:0px;
+	margin-top: 10px;
+	}
+
+ul li a {float:none;
+	text-decoration:none;
+	color:white;
+	padding: 10px;
+	height: 10px;
+	display: block;
+	border-bottom: 2px solid white;
+		}
+
+ul li a:hover{
+	color:#ff5722;
+	font-weight: bold;
+	background-color: #ff5722;
+	color:white;
+	padding: 10px;
+	border-radius: 2px;
+	border-bottom: 2px solid white;}
+
+ul li {float:none;
+	list-style-type: none;
+	}
+
+ul{	margin-right:18%; margin-top: 0px;}
+
+.writeup {margin-top:7%;
+	width: 80%;font-size:17px;}
+
+.box {
+	width:50%;
+	background-color: transparent;
+	padding: 10px; 
+	margin: 0px;
+	border: none;
+	border-bottom: 3px solid purple;
+	}
+
+.form{padding: 0px; margin: 0px;}
+
+.button {
+	width:60%;
+	height: 20px;
+	line-height: 20px;
+	font-size: 10px;}
+
+body {height: 700px;}
+
+.name_of_site {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 0px;
+	font-size: 12px;}
+
+#lion {font-size:13px;}
+
+#address {margin-right: 0px;}
+}

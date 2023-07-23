@@ -1,0 +1,209 @@
+  body{
+	margin:0px;
+	padding:0px;
+	font-family: calibri;
+	background-image: url(projectpic.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 800px;
+}
+
+.name_of_site {
+	height: 40px;
+	background-color: #ff5722;
+	line-height: 40px;
+	padding-left: 50px;
+}
+
+#lion {
+	color: white;
+	font-size:20px;
+	font-family: bookman;
+	font-weight: bold;
+}
+
+#address {
+	float:right;
+	margin-right: 100px;}
+
+.nav0{
+	background-color: purple; 
+	height:100px;
+	border-bottom: 2px solid #ff5722;}
+
+.logo{background-image: url(lion.png);
+	float:left;
+	width:20%;
+	height: 53px;
+	padding: 0;
+	background-repeat: no-repeat;
+	margin-left:200px;
+	margin-top: 20px;:auto;}
+
+ul li a {float:right;
+	text-decoration:none;
+	color:white;
+	padding: 20px;
+	height: 20px;
+	}
+
+ul li a:hover{
+	font-weight: bold;
+	border: 2px solid #ff5722;
+	padding: 10px;
+	border-radius: 2px;
+	color:black;
+	}
+
+ul li {float:right;
+	list-style-type: none;}
+
+ul{	margin-right:100px;}
+
+.body{width: 80%; margin:auto;}
+
+.side-header1 {
+	float:left; 
+	width:100%;
+	background-color: #ff5722;
+	height: 80px;
+	line-height: 40px; 
+	padding-top: 0px; 
+	margin-top: 0px;
+	border-bottom: 2px solid #ff5722;}
+
+.side-nav {
+ 	margin-top: 40px; 
+ 	width: 100%;  
+ 	height: 400px;}
+
+.side-nav li {
+
+	list-style-type: none;
+	width:100%;}
+	
+.side-nav li .active {background-color: purple;}
+
+.side-nav li  a{
+	color:black;
+	clear:both;
+	display: block;
+	text-decoration: none;
+	text-align:center;
+	float:left;
+	padding: 20px;
+	border-bottom:2px solid purple;
+	width: 100%;
+	padding-right: 0px;
+	padding-left:0px; 
+}
+
+.side-nav li :hover{
+	background-color: #ff5722;
+	width:100%;
+	padding: 0px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	transition:1s;
+}
+.left-block {float:left; width:30%;}
+
+.body-area { 
+	border-radius: 5px;
+ 	width: 60%; 
+ 	float:right; 
+ 	height: 600px; 
+ 	background-color: white;
+ 	padding: 20px;
+ 	margin-top: 0px;}
+
+.body-area h3 {
+	border-bottom: 2px solid purple;
+	width:30%;
+}
+
+.button {
+	width: 20%;
+	height: 40px;
+	border: none;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	background-color: #ff5722;
+	border-radius: 2px;
+	margin-bottom: 5%;}
+
+.button:hover{background-color: transparent; 
+	border:2px solid #ff5722;
+	color: #ff5722;}
+
+
+@media screen and (max-width:500px){
+
+.name_of_site {
+	height: 25px;
+	line-height: 25px;
+	padding-left: 0px;
+	font-size: 12px;
+}
+
+#lion {font-size:13px;}
+
+#address {margin-right: 0px;}
+
+.nav0{height:50px;}
+
+.logo{height: 50px; margin-left:40%; margin-top: 0px;}
+
+ul li a {
+	padding: 0px;
+	height: 0px;
+	position: absolute;
+	pointer-events: none;
+	cursor: default;
+	color: transparent;
+	}
+
+ul{	margin-right:0px;}
+
+.body{width: 100%;}
+
+.side-header1 {
+	background-color: #ff5722;
+	height: 60px;
+	font-size: 13px;
+	line-height: 20px; 
+	padding-top: 0px; 
+}
+
+.side-nav {
+ 	margin-top: 30px; 
+ 	width: 100%;  
+ 	height: 300px;}
+
+
+.side-nav li {
+
+	list-style-type: none;
+	width:100%;}
+	
+.side-nav li .active {background-color: purple;}
+
+.side-nav li  a{font-size: 13px;}
+
+.body-area {  
+ 	height: 600px;
+ 	font-size: 13px; 
+ 	padding-left: 3px;}
+
+.body-area h3 {width:60%;font-size: 15px;}
+
+.button {
+	width: 40%;
+	height: 25px;
+	line-height: 15px;
+	font-size: 10px;
+
+}
+

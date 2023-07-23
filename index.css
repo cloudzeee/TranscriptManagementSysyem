@@ -1,0 +1,357 @@
+body{
+	font-family:calibri;
+	padding: 0px;
+	margin:0px;
+}
+
+.background{	
+	background-image: url(projectpic.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 660px;
+	width:100%;
+	padding-top: 10px;
+	margin-bottom: 0px;}
+
+.name_of_site {
+	height: 40px;
+	background-color: #ff5722;
+	line-height: 40px;
+	padding-left: 50px;
+}
+
+#lion {
+	color: white;
+	font-size:20px;
+	font-family: bookman;
+	font-weight: bold;
+}
+
+#address {
+	float:right;
+	margin-right: 100px;
+}
+
+ul {
+	width:70%;
+	margin:0 auto;
+	margin-right:200px;
+	padding:0;}
+
+ul li {
+	margin-top:11px;
+	float:right;
+	list-style-type: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	font-size:15px;}
+
+ul li a { 
+	text-decoration: none;
+	color:white;
+	line-height:20px;}
+
+ul li a:hover{
+	color:#ff5722;
+	font-weight: bold;
+	border: 2px solid #ff5722;
+	padding: 10px;
+	border-radius: 2px;}
+
+.logo {
+	background-image: url(lion.png);
+	float:left;
+	width:30%;
+	height: 60px;
+	margin-left: 200px;
+	padding: 0;
+	background-repeat: no-repeat;}
+
+
+.writeup {
+	margin-top:2%;
+	width: 60%;
+	font-size:30px;
+	color:white; }
+
+.links li{
+	float:left;
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left:37%;
+	border-radius: 5px;
+	border:2px solid purple;}
+
+.links li a{ text-decoration: none;color:purple;}
+
+.link li{
+	float:right;
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right:37%;
+	border:2px solid purple;
+	border-radius: 5px;}
+
+.link li a{text-decoration: none; color:purple;}
+
+.link li a:hover{color:white;}
+
+.links li a:hover {color:white;}
+
+.button  {
+	clear:both;
+	margin-top:5%;
+	width:30%;
+	height: 40px;
+	border: none;
+	line-height: 40px;
+	text-align: center;
+	font-size: 13px;
+	background-color:#ff5722;
+	border-radius: 2px;}
+
+.button a {color: white; text-decoration:none;}
+
+.button:hover {
+	font-weight: bold;
+	border: 2px solid #ff5722;
+	width:30%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 13px;
+	background-color: transparent;}
+
+.button a:hover {color: #ff5722; }
+
+hr{background-color:#ff5722; width:30%; height: 2px; border:none;}
+
+h2 {clear:both; padding-top:6%; font-size:20px;}
+
+input{padding:5px; width:80%%;}
+
+.footer {clear:both; height: 50px; background-color: #FF5722; line-height: 50px; margin-top: 0px;}
+
+@media screen and (max-width:1000px){
+
+	ul {
+	width:60%;
+	margin:0 auto;
+	margin-right:100px;
+	padding:0;
+	}
+
+	li {font-size:12px;color:blue;}
+
+	.logo {
+	background-image: url(lion.png);
+	float:left;
+	width:20%;
+	height: 60px;
+	margin-left: 100px;
+	padding: 0;
+	background-repeat: no-repeat;
+	}
+
+	.writeup {font-size:18px;}
+
+	.links li{margin-left:30%;}
+
+	.link li{margin-right:30%;}
+
+	.footer {clear:both; height: 30px; background-color: #ff5722;}
+
+@media screen and (max-width:600px){
+	body{background-color: yellow;}
+
+	ul {
+	width:60%;
+	margin:0 auto;
+	margin-right:50px;
+	padding:0;}
+
+	ul li a:hover{
+	color:purple;
+	font-weight: bold;
+	border: none;
+	border-bottom: 2px solid purple;
+	padding: 0px;}
+
+
+	.writeup{font-size: 18px; margin-left:0%;clear:both;}
+
+	p{font-size: 12px;}
+
+	.links li{
+	float:left;
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left:35%;
+	border-radius: 5px;
+	border:2px solid green;}
+
+	.link li{
+	float:right;
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right:35%;
+	border:2px solid purple;
+	border-radius: 5px;}}
+
+	.footer {clear:both; height: 30px; background-color: #FF5722; font-size: 12px;}
+
+@media screen and (max-width:500px){
+	body {background-color:blue;}
+
+	.name_of_site {
+	height: 30px;
+	background-color: #ff5722;
+	line-height: 30px;
+	padding-left: 20px;
+	font-size:10px;}
+
+	#lion {color: white;font-size:13px;}
+
+	#address {margin-right: 20px;}
+
+	.logo {
+	background-image: url(lion.png);
+	float:none;
+	height: 60px;
+	padding: 0;
+	background-repeat: no-repeat;
+	position: center;
+	margin:0px;}
+
+	ul {width:100%;}
+
+	ul li {
+	float:none;
+	list-style-type: none;
+	font-size:15px;
+	}
+
+	ul li a {float:none;
+	text-decoration:none;
+	color:white;
+	padding: 10px;
+	height: 10px;
+	display: block;
+	border-bottom: 2px solid white;
+		}
+
+	ul li a:hover{
+	color:#ff5722;
+	font-weight: bold;
+	background-color: #ff5722;
+	color:white;
+	padding: 10px;
+	border-radius: 2px;
+	border-bottom: 2px solid white;}
+
+	.logo {
+	background-image: url(lion.png);
+	float:none;
+	width:100%;
+	height: 60px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	margin-left: 42%;
+	margin-top:0px;}
+
+	.body{padding-top:10px;padding-bottom: 50px;}
+
+	.writeup {
+	margin-top:10%;
+	padding-bottom:10px;
+	width: 100%;
+	font-size:15px;
+	color:white;}
+
+	p{font-size: 10px;}
+
+	.links li{
+	float:left;
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left:25%;
+	border-radius: 5px;
+	border:2px solid purple;
+	}
+
+	.links li a{
+	text-decoration: none;
+	color:purple;}
+
+	.link li{
+	float:right;
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right:25%;
+	border:2px solid purple;
+	border-radius: 5px;
+	}
+
+	.button {
+	clear:both;
+	margin-top:8%;
+	width:50%;
+	height: 20px;
+	border: none;
+	line-height: 20px;
+	text-align: center;
+	font-size: 10px;
+	background-color: #ff5722;
+	border-radius: 2px;
+	}
+
+	.button a {
+	color: white; text-decoration:none;
+	}
+
+	.button:hover {
+	font-weight: bold;
+	border: 2px solid #ff5722;
+	color: #ff5722;
+	width:50%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 10px;
+	background-color: transparent;
+	}
+
+	hr{background-color:#ff5722; width:40%; height: 2px; border:none;}}
+
+	h2 {clear:both; padding-top:6%; font-size:15px;}
+
+	input{padding:5px; width:50%%;}
+
+	.footer {clear:both; height: 30px; background-color: #FF5722; font-size: 10px;}
+
+}
